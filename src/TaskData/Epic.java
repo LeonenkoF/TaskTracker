@@ -7,18 +7,18 @@ public class Epic extends Task{
 
     Map<Integer,Subtask> subtasks;
 
-    public Epic(String taskName, String description, String status, Integer id, HashMap<Integer, Subtask> epics) {
-        super(taskName, description, status, id);
-        subtasks= new HashMap<>();
+    public Epic (String taskName, String description, String status, Integer id) {
+        super (taskName, description, status, id);
+        subtasks = new HashMap<>();
     }
 
     @Override
     public String toString() {
         return "Epic{" +
-                "subtasks=" + subtasks +
-                ", taskName='" + taskName + '\'' +
+                "taskName='" + taskName + '\'' +
                 ", description='" + description + '\'' +
                 ", status='" + status + '\'' +
+                ", subtasks=" + subtasks +
                 '}';
     }
 }
