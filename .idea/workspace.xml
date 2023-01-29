@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e698f370-7627-465e-b652-79ed366bad46" name="Changes" comment="feat: реализовал создание и хранение простой задачи">
+    <list default="true" id="e698f370-7627-465e-b652-79ed366bad46" name="Changes" comment="feat: реализовал создание и хранение остальных видов задачи">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskData/Epic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/Epic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TaskData/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskData/Subtask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/Subtask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <updated>1674905539117</updated>
       <workItem from="1674905540304" duration="4716000" />
       <workItem from="1674913387435" duration="27000" />
-      <workItem from="1674973548366" duration="5504000" />
+      <workItem from="1674973548366" duration="7666000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавить основные классы.">
       <created>1674906547224</created>
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674976125156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: реализовал создание и хранение остальных видов задачи">
+      <created>1674979953910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674979953910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: добавить основные классы." />
     <MESSAGE value="feat: реализовал создание и хранение простой задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: реализовал создание и хранение простой задачи" />
+    <MESSAGE value="feat: реализовал создание и хранение остальных видов задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: реализовал создание и хранение остальных видов задачи" />
   </component>
 </project>
