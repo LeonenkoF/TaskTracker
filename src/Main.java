@@ -3,21 +3,23 @@ public class Main {
     public static void main(String[] args) {
         Storage storage = new Storage();
 
-        storage.createEpic("Епик 1","Описание Епик 1","NEW",1);
+        storage.createTask("Задача 1","Пример простой задачи 1","NEW",1);
+        storage.createTask("Задача 1","Пример простой задачи 1","NEW",1);
 
-        storage.createSubtask("Подзадача 1","Описание подзадачи 1","NEW",1,1);
-        storage.createSubtask("Подзадача 2","Описание подзадачи 2","NEW",2,1);
-        storage.createSubtask("Подзадача 3","Описание подзадачи 3","NEW",3,1);
+        storage.createEpic("Епик 1","Пример епика 1","NEW",1);
+        storage.createEpic("Епик 2","Пример епика 2","NEW",2);
 
+        storage.createSubtask("Подзадача 1","Пример подзадачи 1","NEW",1,1);
+        storage.createSubtask("Подзадача 2","Пример подзадачи 2","NEW",2,1);
+
+        storage.createSubtask("Подзадача 1","Пример подзадачи 1","NEW",1,2);
+
+        System.out.println(storage.getTasksMap());
         System.out.println(storage.getEpicsMap());
 
-        storage.updateEpic("Изменёный эпик 1","Новое Описание Епик 1","NEW",1);
+        storage.updateSubtask("Подзадача 2","Пример подзадачи 2","DONE",2,1);
+        storage.updateSubtask("Подзадача 2","Пример подзадачи 2","DONE",1,2);
 
         System.out.println(storage.getEpicsMap());
-
-        storage.updateSubtask("Новая Подзадача 3","Новое Описание подзадачи 3","NEW",3,1);
-
-        System.out.println(storage.getEpicsMap());
-
     }
 }
