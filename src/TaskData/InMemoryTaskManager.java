@@ -115,4 +115,8 @@ public class InMemoryTaskManager implements TaskManager{
         historyManager.add(epicsMap.get(epicId).subtasks.get(id));
     }
 
+    public List<Task> getHistory(){
+        return historyManager.getHistory();
+
+    }
 }

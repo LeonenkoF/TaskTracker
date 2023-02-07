@@ -8,13 +8,11 @@ public class InMemoryHistoryManager implements HistoryManager{
     List<Task> history = new ArrayList<>();
 
     public void add(Task task) {
-
-
         final Integer historySize = 10;
 
         history.add(task);
 
-        if(history.size()>historySize) history.remove(11);
+        if(history.size()>historySize) history.remove(0);
 
     }
 
