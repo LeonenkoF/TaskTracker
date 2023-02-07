@@ -7,7 +7,7 @@ public class Epic extends Task{
 
     Map<Integer,Subtask> subtasks;
 
-    public Epic (String taskName, String description, String status, Integer id) {
+    public Epic (String taskName, String description, TaskStatus status, Integer id) {
         super (taskName, description, status, id);
         subtasks = new HashMap<>();
     }
