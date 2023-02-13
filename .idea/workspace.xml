@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e698f370-7627-465e-b652-79ed366bad46" name="Changes" comment="refactor: были реализлваны интерфейсы">
+    <list default="true" id="e698f370-7627-465e-b652-79ed366bad46" name="Changes" comment="fix: исправил вывод истории">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskData/HistoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/HistoryManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TaskData/InMemoryHistoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/InMemoryHistoryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskData/InMemoryTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/InMemoryTaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskData/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskData/TaskManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "B:/dev/TaskTracker",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/dev/TaskTracker&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +57,10 @@
       <workItem from="1674973548366" duration="10915000" />
       <workItem from="1675051726455" duration="2811000" />
       <workItem from="1675585849393" duration="43000" />
-      <workItem from="1675757800732" duration="5152000" />
+      <workItem from="1675757800732" duration="5678000" />
+      <workItem from="1675939375940" duration="16000" />
+      <workItem from="1676192673344" duration="371000" />
+      <workItem from="1676275278006" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="feat: добавить основные классы.">
       <created>1674906547224</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675762264224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: исправил вывод истории">
+      <created>1675763294888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675763294888</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,7 @@
     <MESSAGE value="feat: реализовал проверку статуса епика" />
     <MESSAGE value="refactor: были реалезлваны интерфейсы" />
     <MESSAGE value="refactor: были реализлваны интерфейсы" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: были реализлваны интерфейсы" />
+    <MESSAGE value="fix: исправил вывод истории" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: исправил вывод истории" />
   </component>
 </project>
